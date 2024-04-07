@@ -1,5 +1,4 @@
-a=input()
-a.split(":")
-b=int(a[0])+1
-c=a[1:4]
-print(f"{b}{c}")
+time=input().split(":")
+b=int(time[0])
+c=int(time[1])
+print(f"{b+1:c}")
