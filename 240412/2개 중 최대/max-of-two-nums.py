@@ -2,4 +2,7 @@ n=input()
 arr=n.split()
 a=int(arr[0])
 b=int(arr[1])
-print(max(arr))
+if a>b:
+    print(a)
+else:
+    print(b)
