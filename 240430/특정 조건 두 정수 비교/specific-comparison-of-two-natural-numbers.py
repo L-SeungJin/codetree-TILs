@@ -3,6 +3,9 @@ arr=n.split()
 a=int(arr[0])
 b=int(arr[1])
 if a<b:
-    print('1 0')
+    a=1
+    b=0
 else:
-    print('0 1')
+    a=0
+    b=1
+print(f'{a} {b}')
