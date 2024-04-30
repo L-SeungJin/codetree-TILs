@@ -9,6 +9,6 @@ elif a>b:
     a=0
     b=1
 else:
-    a=0 or 1
-    b=0 or 1
+    a=0 
+    b=1
 print(f'{a} {b}')
