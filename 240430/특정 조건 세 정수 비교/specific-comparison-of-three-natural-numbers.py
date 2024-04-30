@@ -4,7 +4,7 @@ n1=int(arr[0])
 n2=int(arr[1])
 n3=int(arr[2])
 
-if n1==min(arr):
+if n1==min(n1,n2,n3):
     print('1',end=" ")
 else:
     print('0',end=" ")
