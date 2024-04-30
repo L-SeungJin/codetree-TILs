@@ -8,4 +8,4 @@ if a<b:
 else:
     a=0
     b=1
-print(f'{a} {b}')
+print(a,b,end=" ")
