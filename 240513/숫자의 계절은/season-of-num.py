@@ -1,10 +1,9 @@
 m=int(input())
-m<=12 and m>=1
-if m<12 and m>=9:
-    print('Fall')
-elif m>=6:
-    print('Summer')
-elif m>=3:
+if m<=5 and m>=3:
     print('Spring')
+elif m<=8 and m>=6:
+    print('Summer')
+elif m<=11 and m>=9:
+    print('Fall')
 else:
     print('Winter')
