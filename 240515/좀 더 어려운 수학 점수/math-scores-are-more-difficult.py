@@ -16,3 +16,9 @@ if math_a==math_b:
         print('A')
     else:
         print('B')
+'''
+if math_a>math_b or (math_a==math_b and eng_a>eng_b):
+    print('A')
+else:
+    print('B')
+'''
