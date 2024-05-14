@@ -8,10 +8,11 @@ math_b=int(b[0])
 eng_b=int(b[1])
 if math_a>math_b:
     print('A')
-else:
+elif math_a<math_b:
     print('B')
 
-if math_a==math_b and eng_a>eng_b:
-    print('A')
-elif math_a==math_b and eng_a<eng_b:
-    print('B')
+if math_a==math_b:
+    if eng_a>eng_b:
+        print('A')
+    else:
+        print('B')
